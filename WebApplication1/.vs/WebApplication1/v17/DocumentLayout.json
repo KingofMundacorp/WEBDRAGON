@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDBA2ED9-BC08-4882-9EE0-6A8C7A3C2459}|WebApplication1.csproj|c:\\users\\user\\3d objects\\david is king\\webdragonprojects\\webapplication1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBA2ED9-BC08-4882-9EE0-6A8C7A3C2459}|WebApplication1.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBA2ED9-BC08-4882-9EE0-6A8C7A3C2459}|WebApplication1.csproj|c:\\users\\user\\3d objects\\david is king\\webdragonprojects\\webapplication1\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBA2ED9-BC08-4882-9EE0-6A8C7A3C2459}|WebApplication1.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDBA2ED9-BC08-4882-9EE0-6A8C7A3C2459}|WebApplication1.csproj|c:\\users\\user\\3d objects\\david is king\\webdragonprojects\\webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EDBA2ED9-BC08-4882-9EE0-6A8C7A3C2459}|WebApplication1.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,6 +27,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\WebApplication1\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\WebApplication1\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:04:57.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\WebApplication1\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\WebApplication1\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:04:39.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\WebApplication1\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -28,10 +66,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-12T13:35:14.955Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
