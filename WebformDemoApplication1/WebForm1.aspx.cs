@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -16,6 +17,17 @@ namespace WebformDemoApplication1
             {
                 
             }
+            string connectionString;
+            SqlConnection cnn;
+
+            connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\WebformDemoApplication1\\App_Data\\DragonDatabase.accdb;User ID=Admin";
+
+
+            cnn = new SqlConnection(connectionString);
+            cnn.Open();
+
+            Response.Write("Connection made");
+            cnn.Close();
         }
 
         protected void Webbtn_Click(object sender, EventArgs e)
