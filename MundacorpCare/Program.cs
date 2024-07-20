@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore.Internal;
 using MundacorpCareRepositories.Interfaces;
 using MundacorpCareRepositories.Implementation;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using MundacorpCareServices;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,7 @@ builder.Services.AddIdentity<IdentityUser,IdentityRole>()
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddTransient<IMundacorpCareInfo, MundacorpCareInfoServices>();
 builder.Services.AddRazorPages();
 var app = builder.Build();
 
@@ -41,7 +44,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
-    pattern: "{Area=Patient}/{controller=Home}/{action=Index}/{id?}");
+    pattern: "{Area=admin}/{controller=MundacorpCares}/{action=Index}/{id?}");
 
 app.Run();
 void DataSedding()

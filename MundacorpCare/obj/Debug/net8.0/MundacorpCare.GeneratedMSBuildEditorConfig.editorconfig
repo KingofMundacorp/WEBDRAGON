@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCare
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/user/3D Objects/david is king/WEBDRAGONPROJECTS/MundacorpCare/Areas/Admin/Views/MundacorpCares/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVuZGFjb3JwQ2FyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/3D Objects/david is king/WEBDRAGONPROJECTS/MundacorpCare/Areas/Admin/Views/MundacorpCares/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVuZGFjb3JwQ2FyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/3D Objects/david is king/WEBDRAGONPROJECTS/MundacorpCare/Areas/Admin/Views/MundacorpCares/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVuZGFjb3JwQ2FyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/3D Objects/david is king/WEBDRAGONPROJECTS/MundacorpCare/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,4 +1,5 @@
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\bin\Debug\net8.0\MundacorpCareModels.deps.json
+C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\bin\Debug\net8.0\MundacorpCareModels.runtimeconfig.json
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\bin\Debug\net8.0\MundacorpCareModels.dll
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\bin\Debug\net8.0\MundacorpCareModels.pdb
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\obj\Debug\net8.0\MundacorpCareModels.csproj.AssemblyReference.cache
@@ -10,4 +11,5 @@ C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\obj
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\obj\Debug\net8.0\MundacorpCareModels.dll
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\obj\Debug\net8.0\refint\MundacorpCareModels.dll
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\obj\Debug\net8.0\MundacorpCareModels.pdb
+C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\obj\Debug\net8.0\MundacorpCareModels.genruntimeconfig.cache
 C:\Users\user\3D Objects\david is king\WEBDRAGONPROJECTS\MundacorpCareModels\obj\Debug\net8.0\ref\MundacorpCareModels.dll

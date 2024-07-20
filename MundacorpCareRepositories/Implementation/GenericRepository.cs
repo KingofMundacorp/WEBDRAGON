@@ -20,7 +20,7 @@ namespace MundacorpCareRepositories.Implementation
             dbSet = _context.Set<T>();
         }
 
-        public void Added(T entity)
+        public void Add(T entity)
         {
             dbSet.Add(entity);
         }
@@ -116,9 +116,6 @@ namespace MundacorpCareRepositories.Implementation
             return entity;
         }
 
-        public void Add(T entity)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

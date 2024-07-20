@@ -48,7 +48,29 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -119,17 +141,125 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareServices\\MundacorpCareServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareServices\\MundacorpCareServices.csproj",
+        "projectName": "MundacorpCareServices",
+        "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareServices\\MundacorpCareServices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareUtilities\\MundacorpCareUtilities.csproj": {
+                "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareUtilities\\MundacorpCareUtilities.csproj"
+              },
+              "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj": {
+                "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -182,6 +312,9 @@
               },
               "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareRepositories\\MundacorpCareRepositories.csproj": {
                 "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareRepositories\\MundacorpCareRepositories.csproj"
+              },
+              "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj": {
+                "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj"
               }
             }
           }
@@ -203,11 +336,122 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj",
+        "projectName": "MundacorpCareViewModels",
+        "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareModels\\MundacorpCareModels.csproj": {
+                "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareModels\\MundacorpCareModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -258,8 +502,14 @@
               "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareRepositories\\MundacorpCareRepositories.csproj": {
                 "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareRepositories\\MundacorpCareRepositories.csproj"
               },
+              "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareServices\\MundacorpCareServices.csproj": {
+                "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareServices\\MundacorpCareServices.csproj"
+              },
               "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareUtilities\\MundacorpCareUtilities.csproj": {
                 "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareUtilities\\MundacorpCareUtilities.csproj"
+              },
+              "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj": {
+                "projectPath": "C:\\Users\\user\\3D Objects\\david is king\\WEBDRAGONPROJECTS\\MundacorpCareViewModels\\MundacorpCareViewModels.csproj"
               }
             }
           }
@@ -281,7 +531,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
@@ -299,11 +549,15 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "cloudscribe.Web.Pagination": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
